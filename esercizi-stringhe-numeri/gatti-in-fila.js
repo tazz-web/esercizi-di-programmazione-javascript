@@ -17,3 +17,10 @@
 
   http://www.imparareaprogrammare.it
 */
+var cats = parseInt(prompt('inserisci in numero dei gatti?'));
+var catsForline = parseInt(prompt('quanti gatti vuoi mettere in ohni fila li vuoi dividere?'));
+
+var nLine = Math.ceil(cats/catsForline);
+var nGattiMancanti= catsForline-(cats%catsForline)
+
+alert("il numero di file è " + nLine +" mentre il numero di gatti mancanti acompleare l'ultima fila è " + nGattiMancanti);
