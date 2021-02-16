@@ -12,3 +12,12 @@
 
   http://www.imparareaprogrammare.it
 */
+
+var input = parseInt(prompt("inserisci un numero di secondi"));
+
+var secondi = input % 60;
+var minuti = (input-secondi)/60;
+var ore = parseInt(minuti/60);
+var minuti = minuti % 60;
+
+alert(ore + ' ore '  + minuti + ' minuti ' + secondi + ' secondi')
