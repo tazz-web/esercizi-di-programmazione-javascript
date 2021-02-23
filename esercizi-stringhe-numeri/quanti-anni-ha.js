@@ -12,9 +12,9 @@
   http://www.imparareaprogrammare.it
 */
 
-var anno= prompt('In che ano siamo?'); 
-var nascita= prompt('In che anno sei nato?');
+var anno= parseInt(prompt('In che ano siamo?')); 
+var nascita= parseInt(prompt('In che anno sei nato?'));
 var eta = anno-nascita;
-var mancanti = 100-eta
+var mancanti = 100-eta;
 
 alert('hai ' + eta + ' anni e ti mancano ' + mancanti ' anni per raggiungere i 100')
